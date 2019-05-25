@@ -1,0 +1,40 @@
+html,body{
+	height:100%;
+}
+.bg{
+	background-image:url(imagee.jpg);
+	height:100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+}
+
+.topnav{
+	background-color:#333;
+    overflow:hidden;
+}
+
+.topnav a{
+	color:red;
+	float:right;
+	display:inline;
+	font-size:15px;
+	padding:14px 16px;
+}
+
+.topnav a: hover{
+	color:lightblue;
+
+}
+
+.column{
+	 float:left;
+     width:34%;
+     padding:90px;
+
+}
+.card{
+	box-shadow:8px 8px rgba(200,225,225,1.0);
+	padding:16px;
+	background-color:#f1f1f1;
+}
